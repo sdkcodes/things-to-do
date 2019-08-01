@@ -8,3 +8,4 @@
   
 ## Lists
 * Put pagination in mind when retrieving and displaying a list of records. This is quite often overlooked in the early stages of the project because you'd only have a few records to deal with, but as time passes, it starts to get bulky and the impact becomes bigger.
+* When rendering a list, always remember to add a sensible default message for when the list is empty. If the list can be populated based a on a user's action, you can add an action button encouraging the user to populate the list.
